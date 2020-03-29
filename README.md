@@ -16,6 +16,8 @@ Abaixo está o esquemário da fonte.
 
 <img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/Esquema.png">
 
+Estou usando um relé para a proteção contra curto na base do transistor TIP35 que quando a tensão estiver abaixo dos 0.3 Volts, a fonte acurará curto na saída, assim o usuário irá aperta qualquer um dos botões para ajuste de tensão que a fonte irá armar novamente.
+A proteção é via software saido assim do pino B10 do Arduino.
 O Amperímetro é o ACS712.
-Está funcionando perfeitamente e ainda coloquei uma proteção contra curto somente na saída de tensão variável usando um relé. As outras saídas já tem esse controle que vem da própria fonte ATX.
-Virou a fonte da minha bancada.
+
+<img src="https://uploads.filipeflop.com/2017/07/001-3.png" width="400" height="300">
