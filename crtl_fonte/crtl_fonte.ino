@@ -69,20 +69,12 @@ static float leitura_voltagem( ) {
   }
 
   media = leitura / AMOSTRAS;
-<<<<<<< HEAD
-  voltagem = ((float) media * TRESTRES) / MILVINTETRES; // Multiplicando por 3.3 Volts para maior precisão na leitura de voltagem
-=======
   voltagem = ((float) media * TRESTRES) / MILVINTETRES; // Multiplicando po 3.3 Volts para maior precisão na leitura de voltagem
->>>>>>> 938784727a5843acab137c6761ec77eaa7d1b807
   return voltagem * DEZ;
   
 }
 
 /*
-<<<<<<< HEAD
-=======
-
->>>>>>> 938784727a5843acab137c6761ec77eaa7d1b807
 Nesta parte deve-se ter muita atenão para não ter leituras erradas
 no amperimetro. O OFFSET deve ter o mesmo valor de repouso do amperimetro
 que no meu caso está lendo uma tensão de 2,49 Volts e o meu OFFSET está
