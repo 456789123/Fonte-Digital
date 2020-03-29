@@ -41,7 +41,7 @@ Assim após a montagem a placa ficou com esta aparência.
 
 
 As saídas de tensão são 3,3 Volts, 5 Volts, -12 Volts, e a tensão variável.
-# O controle de tenão é somente para a saída de tensão variável as outras saídas são idependentes sendo monitorada apenas a corrente da fonte que está ao negativo de saída de todas as tensões.
+# O controle de tensão é somente para a saída de tensão variável, as outras saídas são idependentes sendo monitorada apenas a corrente da fonte que está ao negativo de saída de todas as tensões.
 A própria fonte ATX tem sua proteção contra curto em suas saídas e a placa de controle terá a proteção de curto somente na saída de tensão vaiável.
 O código se encontra no <h2> crtl_fonte </h2>
 Abaixo outras imagens que detalhei no decorrer do desenvolvimento do projeto.
