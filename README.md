@@ -29,3 +29,8 @@ No meu caso estou usando um de 30 amperes que usará o valor de 0.66 para a corr
 Eu montei o circuito em uma placa ilhada como mostra abaixo.
 
 <img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_172920_vHDR_Auto.jpg" width="400" height="600">
+
+
+Assim após a montagem a placa ficou com esta aparência.
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200325_151813_vHDR_Auto.jpg" width="500" height="650">
