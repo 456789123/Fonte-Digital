@@ -28,4 +28,4 @@ Tem que ficar atento a tensão que este sensor está mandando para o pino A3 do 
 No meu caso estou usando um de 30 amperes que usará o valor de 0.66 para a correção de leitura. Caso vocês usem de amperagens diferentes, devem pesquisar sobre o valor de correção de do seu sensor.
 Eu montei o circuito em uma placa ilhada como mostra abaixo.
 
-<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_172920_vHDR_Auto.jpg" width="400" height="400">
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_172920_vHDR_Auto.jpg" width="400" height="600">
