@@ -8,7 +8,8 @@ Para elevar a tensão de 12 Volts para 14 Volts, eu tirei o transformador de sa�
 O transformador toroidal é o ultimo da direita.
 Depois há um jumper que leva os 12 volts para o pino do C.I. de controle da fonte ATX que se ultrapassar os 13,5 Volts, ele para a fonte desligadoa automaticamente.
 Eu retirei esse jumper e o substituir por um 7812 que manda para o C.I. de controle.
-<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_175018_vHDR_Auto.jpg" width="450" height="600">
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_175018_vHDR_Auto.jpg" width="700" height="500">
 
 O Amperímetro é o ACS712.
 Está funcionando perfeitamente e ainda coloquei uma proteção contra curto somente na saída de tensão variável usando um relé. As outras saídas já tem esse controle que vem da própria fonte ATX.
