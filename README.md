@@ -11,6 +11,11 @@ Eu retirei esse jumper e o substituir por um 7812 que manda para o C.I. de contr
 
 <img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_175018_vHDR_Auto.jpg" width="700" height="500">
 
+Após a alteração da tensão de 12 Volts está concluida eu fiz um controle digital usando Arduino para monitoramento da tensão variável da fonte e claro, ajuste manual da fonte com botões para o controle de PWM que vai de 0 a 255 para o ajuste da tensão de saída.
+Abaixo está o esquemário da fonte.
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/Esquema.png">
+
 O Amperímetro é o ACS712.
 Está funcionando perfeitamente e ainda coloquei uma proteção contra curto somente na saída de tensão variável usando um relé. As outras saídas já tem esse controle que vem da própria fonte ATX.
 Virou a fonte da minha bancada.
