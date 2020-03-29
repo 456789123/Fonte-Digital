@@ -34,3 +34,24 @@ Eu montei o circuito em uma placa ilhada como mostra abaixo.
 Assim após a montagem a placa ficou com esta aparência.
 
 <img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200325_151813_vHDR_Auto.jpg" width="850" height="650">
+
+
+As saídas de tensão são 3,3 Volts, 5 Volts, -12 Volts, e a tensão variável.
+# O controle de tenão é somente para a saída de tensão variável as outras saídas são idependentes sendo monitorada apenas a corrente da fonte que está ao negativo de saída de todas as tensões.
+A própria fonte ATX tem sua proteção contra curto em suas saídas e a placa de controle terá a proteção de curto somente na saída de tensão vaiável.
+O código se encontra no <h2> crtl_fonte </h2>
+Abaixo outras imagens que detalhei no decorrer do desenvolvimento do projeto.
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200321_023352_vHDR_Auto.jpg" width="850" height="650">
+
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200321_023531_vHDR_Auto.jpg" width="850" height="650">
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200321_194927_vHDR_Auto.jpg" width="850" height="650">
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200323_211239_vHDR_Auto.jpg" width="850" height="650">
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200325_143610_vHDR_Auto.jpg" width="850" height="650">
+
+
+Mais detalhes esão no código.
