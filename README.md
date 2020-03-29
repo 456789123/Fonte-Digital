@@ -58,4 +58,4 @@ Abaixo outras imagens que detalhei no decorrer do desenvolvimento do projeto.
 <img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200325_143610_vHDR_Auto.jpg" width="850" height="650">
 
 
-Mais detalhes esão no código.
+Mais detalhes estão no código.
