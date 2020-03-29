@@ -29,8 +29,8 @@
 #define VOLTAGE_PIN (A2)
 #define AMPER_PIN   (A3)
 
-#define FATOR_CORRECAO (0.66)
-#define OFFSET    (2490.2344)
+#define FATOR_CORRECAO (0.66) // Fator de correção do sensor de 30 Amperes
+#define OFFSET    (2490.2344) // Valor de tensão que está no pino A3 do Arduino
 
 #define AMOSTRAS (50)
 
@@ -69,10 +69,20 @@ static float leitura_voltagem( ) {
   }
 
   media = leitura / AMOSTRAS;
-  voltagem = ((float) media * TRESTRES) / MILVINTETRES;
+  voltagem = ((float) media * TRESTRES) / MILVINTETRES; // Multiplicando po 3.3 Volts para maior precisão na leitura de voltagem
   return voltagem * DEZ;
   
 }
+
+/*
+
+Nesta parte deve-se ter muita atenão para não ter leituras erradas
+no amperimetro. O OFFSET deve ter o mesmo valor de repouso do amperimetro
+que no meu caso está lendo uma tensão de 2,49 Volts e o meu OFFSET está
+em 2490.2344
+Se este valor no seu circuito estiver com a mínima diferença, não terá uma
+boa leitura.
+*/
 
 static float leitura_amperagem( ) {
   
