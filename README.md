@@ -20,4 +20,12 @@ Estou usando um relé para a proteção contra curto na base do transistor TIP35
 A proteção é via software saido assim do pino B10 do Arduino.
 O Amperímetro é o ACS712.
 
+
 <img src="https://uploads.filipeflop.com/2017/07/001-3.png" width="400" height="300">
+
+
+Tem que ficar atento a tensão que este sensor está mandando para o pino A3 do Arduino pois, esse valor de tenção de entrada será nosso OFFSETno código e terá um valor de correção para a leitura que eu chamo de FATOR_CORRECAO.
+No meu caso estou usando um de 30 amperes que usará o valor de 0.66 para a correção de leitura. Caso vocês usem de amperagens diferentes, devem pesquisar sobre o valor de correção de do seu sensor.
+Eu montei o circuito em uma placa ilhada como mostra abaixo.
+
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200319_172920_vHDR_Auto.jpg" width="400" height="300">
