@@ -33,4 +33,4 @@ Eu montei o circuito em uma placa ilhada como mostra abaixo.
 
 Assim após a montagem a placa ficou com esta aparência.
 
-<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200325_151813_vHDR_Auto.jpg" width="650" height="850">
+<img src="https://github.com/456789123/Fonte-Digital/blob/master/Imagens/P_20200325_151813_vHDR_Auto.jpg" width="850" height="650">
