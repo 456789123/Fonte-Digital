@@ -75,7 +75,7 @@ static float leitura_voltagem( ) {
 }
 
 /*
-Nesta parte deve-se ter muita atenão para não ter leituras erradas
+Nesta parte deve-se ter muita atenção para não ter leituras erradas
 no amperimetro. O OFFSET deve ter o mesmo valor de repouso do amperimetro
 que no meu caso está lendo uma tensão de 2,49 Volts e o meu OFFSET está
 em 2490.2344
